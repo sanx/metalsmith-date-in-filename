@@ -1,0 +1,37 @@
+{
+  "name": "metalsmith-date-in-filename",
+  "version": "0.0.0",
+  "description": "Incorporate date information on filename into metadata.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanx/metalsmith-date-in-filename"
+  },
+  "keywords": [
+    "date",
+    "filename",
+    "metalsmith",
+    "jekyll"
+  ],
+  "author": "gerardo@gerardomoad.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanx/metalsmith-date-in-filename/issues"
+  },
+  "homepage": "https://github.com/sanx/metalsmith-date-in-filename",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
