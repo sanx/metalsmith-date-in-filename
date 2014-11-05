@@ -1,6 +1,6 @@
 {
   "name": "metalsmith-date-in-filename",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Incorporate date information on filename into metadata.",
   "main": "index.js",
   "scripts": {
