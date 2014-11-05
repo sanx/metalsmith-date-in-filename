@@ -6,7 +6,7 @@ deploy:
   provider: npm
   email: gerardo+npm@gaderas.com
   api_key:
-    secure: 5KKqDZ47tmkA8PkYYpyWdXeFGnO6rvFdZTwvg/vuRqt42J+GRi2byBxC7dcj7yfdJ8x36wrmouUStew3YYDKa9esk7Fqy+M/+2KMnfpNeTHSqDS+A1KIdkMK1OgA8W5rpdQglKNPs0ZoxK4MO8TOxBbCTXdTk5FVUQVghe+pkQI=
+    secure: NMtihzxfrXRti+V3Sr5O2FqzaVtc0oEpQd5KwAWJnLym2ncCqLcQwj5hI2IjuD1ln9OZ6DFBS+kgfJhcB35CQhVzvnJvg46+qtsd/kbK4euAnESHI/m7zD69ZZRZCDZfnpU4GKfKsJWn9KFZneg9q5izWG64pzffeDEGqH+l/9o=
   on:
     all_branches: true
     tags: true
