@@ -1,4 +1,4 @@
-metalsmith-date-in-filename: incorporate date info in filename onto file metadata.
+metalsmith-date-in-filename: incorporate date info in filename onto file metadata
 ====
 
 [![Build Status](https://travis-ci.org/sanx/metalsmith-date-in-filename.svg?branch=master)](https://travis-ci.org/sanx/metalsmith-date-in-filename)
