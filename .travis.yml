@@ -8,5 +8,6 @@ deploy:
   api_key:
     secure: rNpl+D7higThrDmVAZsP35MqNuw0UYSEZEp+6zFFnudGTLq7ImbZvPY2QHZxvvyuQfVqEq8/x0RZmbJjtJ7Eclzn7Cx+kcIOoWC7Iyo/GFDuWz1mVWrwPdXmwyAeGZRJEgTCc58kGc63T1o2NQrWZQ+pud3qrmrng2h04q8qZMU=
   on:
+    all_branches: true
     tags: true
     repo: sanx/metalsmith-date-in-filename
