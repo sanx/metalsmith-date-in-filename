@@ -2,11 +2,12 @@ language: node_js
 node_js:
 - '0.11'
 - '0.10'
+- '0.12'
 deploy:
   provider: npm
   email: gerardo+npm@gaderas.com
   api_key:
-    secure: NMtihzxfrXRti+V3Sr5O2FqzaVtc0oEpQd5KwAWJnLym2ncCqLcQwj5hI2IjuD1ln9OZ6DFBS+kgfJhcB35CQhVzvnJvg46+qtsd/kbK4euAnESHI/m7zD69ZZRZCDZfnpU4GKfKsJWn9KFZneg9q5izWG64pzffeDEGqH+l/9o=
+    secure: nBrjHt/tmz8eou0+VE8k23aSkEgr6PrraKl7Y9YGauHNMrLV8StEVcrxC46Hk2Sx6p/3Ub+rdTGOzoZD5/ja5E6KsJn/cjyyNTB9OziuzRNR4edbO3BveAXOBJmaMyasMfxz6bDa2dCty6uOZEy+p5OPbDUqRmYN6w/iyD1ItMM=
   on:
     all_branches: true
     tags: true
