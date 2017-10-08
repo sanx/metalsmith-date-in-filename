@@ -27,7 +27,11 @@ Then in your code:
     var Metalsmith = require('Metalsmith');
     var dateInFilename = require('metalsmith-date-in-filename');
     Metalsmith(__dirname)
-        .use(dateInFilename({override: true}))
+        .use(dateInFilename({
+            override: true,
+            // Use localtime: true to treat parsed dates as local instead of UTC
+            localtime: true
+        }))
         .build();
 
 ... alternatively, you can pass just a boolean to the plugin, and the `override` setting will be set to it:
@@ -42,7 +46,10 @@ CLI Usage
 
     {
         "plugins": {
-            "metalsmith-date-in-filename": {"override": true}
+            "metalsmith-date-in-filename": {
+                "override": true
+                "localtime": true
+            }
         }
     }
 

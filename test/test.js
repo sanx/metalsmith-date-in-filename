@@ -139,4 +139,28 @@ describe('metalsmith-date-in-filename', function () {
             })
             .build(buildDone(done));
     });
+
+    describe('localtime is correct', function() {
+        // These tests depend on the TZ environment var
+
+        it('when local date differs by a day from utc date', function(done) {
+            var metalsmith = Metalsmith('test/fixtures/single_post_with_disparate_dates');
+            metalsmith
+                .use(dateInFilename({
+                  override: true,
+                  localtime: true
+                }))
+                .use(function (files, metalsmith, done) {
+                    _.forEach(files, function (fileMeta, fileName) {
+                        switch (fileName) {
+                            case '2014-10-02-one.md':
+                                assert.equal(2, fileMeta.date.getDate());
+                                break;
+                        }
+                    });
+                    done();
+                })
+                .build(buildDone(done));
+        });
+    });
 });
