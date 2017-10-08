@@ -4,7 +4,7 @@
   "description": "Incorporate date information on filename into metadata.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "TZ=America/Chicago mocha"
   },
   "repository": {
     "type": "git",
